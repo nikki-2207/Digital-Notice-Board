@@ -1,0 +1,32 @@
+body{
+ font-family:Segoe UI;
+ background:linear-gradient(135deg,#8360c3,#2ebf91);
+ padding:40px;
+}
+
+.container{
+ max-width:700px;
+ margin:auto;
+ background:white;
+ padding:30px;
+ border-radius:20px;
+}
+
+input,textarea,select{
+ width:100%;
+ padding:12px;
+ margin:8px 0;
+ border-radius:10px;
+ border:1px solid #ccc;
+}
+
+button{
+ width:100%;
+ padding:14px;
+ border:none;
+ border-radius:12px;
+ background:#6a11cb;
+ color:white;
+ font-size:16px;
+ cursor:pointer;
+}

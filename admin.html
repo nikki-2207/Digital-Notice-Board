@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Dashboard</title>
+<link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Post Advanced Notice</h2>
+
+<input id="title" placeholder="Notice Title">
+
+<textarea id="desc" placeholder="Notice Description"></textarea>
+
+<label>Expiry Date</label>
+<input type="date" id="expiry">
+
+<label>Notice Type</label>
+<select id="type">
+<option>Education</option>
+<option>Meeting</option>
+<option>Event</option>
+<option>Sports</option>
+<option>Urgent</option>
+</select>
+
+<label>Priority</label>
+<select id="priority">
+<option>Low</option>
+<option>Medium</option>
+<option>High</option>
+</select>
+
+<label>Audience / Department</label>
+<input id="dept" placeholder="Ex: CSE / All Students">
+
+<label>Attachment Link</label>
+<input id="link" placeholder="Paste Google Drive / PDF Link">
+
+<button onclick="addNotice()">Post Notice</button>
+
+</div>
+
+<script src="admin.js"></script>
+
+</body>
+</html>
